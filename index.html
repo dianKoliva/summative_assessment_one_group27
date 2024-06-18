@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Subscription Form</title>
+</head>
+<body>
+    <h2>Newsletter Subscription Form</h2>
+    <form action="/subscribe" method="post">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+        
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="subscription-preferences">Subscription Preferences:</label><br>
+        <input type="checkbox" id="tech" name="subscription-preferences" value="Technology" >
+        <label for="tech"> Technology</label><br>
+        <input type="checkbox" id="health" name="subscription-preferences" value="Health" >
+        <label for="health"> Health</label><br>
+        <input type="checkbox" id="finance" name="subscription-preferences" value="Finance" >
+        <label for="finance"> Finance</label><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}" required><br>
+        <small>Password must be at least 8 characters, contain at least one uppercase letter, one lowercase letter, one special character (!@#$%^&*), and one number.</small><br><br>
+        
+        <input type="submit" value="Subscribe">
+    </form>
+</body>
+</html>
