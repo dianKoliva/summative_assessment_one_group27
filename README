@@ -1,0 +1,16 @@
+# Newsletter Subscription Form
+
+This project contains an HTML form for subscribing to our newsletter. The form collects the user's first name, last name, email address, subscription preferences, and a password.
+
+## Form Fields
+
+- **First Name:** The user's first name.
+- **Last Name:** The user's last name.
+- **Email:** The user's email address is required in a valid email format.
+- **Subscription Preferences:** Checkboxes for selecting topics of interest (Technology, Health, Finance).
+- **Password:** A secure password that must meet the following criteria (required):
+  - Minimum 8 characters
+  - At least one uppercase letter
+  - At least one lowercase letter
+  - At least one special character (!@#$%^&*)
+  - At least one number
