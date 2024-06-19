@@ -15,7 +15,8 @@
   <body>
     <h2>Newsletter Subscription Form</h2>
     <div class="form-container">
-      <form action="/subscribe" method="post">
+      <div class="error-message"></div>
+      <form action="/subscribe" method="post" onsubmit="return validateForm()">
         <div>
           <label for="first-name" class="field-label">First Name</label>
           <input
@@ -96,5 +97,6 @@
         around the world.
       </div>
     </div>
+    <script src="validate.js"></script>
   </body>
 </html>
