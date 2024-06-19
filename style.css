@@ -4,7 +4,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: black;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,7 +38,7 @@ form {
 }
 
 .field-label {
-  color: #000;
+  color: #ececec;
 }
 
 .input {
